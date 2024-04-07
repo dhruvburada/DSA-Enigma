@@ -1,4 +1,4 @@
-# LeetCode Solutions Repository
+## DSA Enigma :  LeetCode Solutions Repository
 
 Welcome to my personal LeetCode solutions repository! 
 
