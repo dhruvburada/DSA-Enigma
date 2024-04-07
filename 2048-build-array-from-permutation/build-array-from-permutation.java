@@ -1,5 +1,3 @@
-import java.util.*;
-
 class Solution {
     public static int[] buildArray(int[] nums) {
         int result[]= new int[nums.length];
