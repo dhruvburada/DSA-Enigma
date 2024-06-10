@@ -1,18 +1,25 @@
 class Solution {
     public int missingNumber(int[] nums) {
-        int end = nums.length;
-        int sum=0;
-        int nums_sum=0;
-        for(int i =0 ;i<=end;i++)
-        {
-            sum+=i;
-        }
+        
+        int[] hashArray = new int[nums.length+1];
+        int missing = -1;
         for(int i=0;i<nums.length;i++)
         {
-            nums_sum+=nums[i];
+            hashArray[nums[i]]++;
         }
 
+        for(int i=0;i<hashArray.length;i++)
+        {
+            if(hashArray[i]==0)
+            {
+                missing = i;
+                break;
+            }
+            
+        }
 
-        return sum-nums_sum;
+        return missing;
+
+
     }
 }
