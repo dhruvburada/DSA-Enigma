@@ -1,31 +1,30 @@
 class Solution {
     public int majorityElement(int[] nums) {
         
-        HashMap<Integer,Integer> count = new HashMap<>();
+        //Morr's Voting Algorithm
+
+        int count = 0;
+        int element=0;
+
         for(int i=0;i<nums.length;i++)
         {
-            if(!count.containsKey(nums[i]))
-            {   
-                count.put(nums[i],1);
+            if(count == 0)
+            {
+                element = nums[i];
+                count=1;
+            }
+            
+            else if(element  == nums[i])
+            {
+                count++;
             }
             else
             {
-                count.put(nums[i],count.get(nums[i])+1);
-            }
-        }
-        int max=0;
-        int key=0;
-        for ( Map.Entry<Integer, Integer> set :count.entrySet() ) {
- 
-            if(set.getValue() > max)
-            {
-                max = set.getValue();
-                key = set.getKey();
+                count--;
             }
         }
 
-        return key;
-
+        return element;
         
     }
 }
