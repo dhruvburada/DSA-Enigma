@@ -23,15 +23,3 @@ Feel free to explore the solutions in this repository. However, please note that
 If you have any feedback or suggestions for improvement, feel free to reach out to me. I'm always open to learning and improving my problem-solving skills.
 
 Happy coding! 🚀
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0792-binary-search](https://github.com/dhruvburada/DSA-Enigma/tree/master/0792-binary-search) |
-## Binary Search
-|  |
-| ------- |
-| [0792-binary-search](https://github.com/dhruvburada/DSA-Enigma/tree/master/0792-binary-search) |
-<!---LeetCode Topics End-->
