@@ -23,3 +23,19 @@ Feel free to explore the solutions in this repository. However, please note that
 If you have any feedback or suggestions for improvement, feel free to reach out to me. I'm always open to learning and improving my problem-solving skills.
 
 Happy coding! 🚀
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0560-subarray-sum-equals-k](https://github.com/dhruvburada/DSA-Enigma/tree/master/0560-subarray-sum-equals-k) |
+## Hash Table
+|  |
+| ------- |
+| [0560-subarray-sum-equals-k](https://github.com/dhruvburada/DSA-Enigma/tree/master/0560-subarray-sum-equals-k) |
+## Prefix Sum
+|  |
+| ------- |
+| [0560-subarray-sum-equals-k](https://github.com/dhruvburada/DSA-Enigma/tree/master/0560-subarray-sum-equals-k) |
+<!---LeetCode Topics End-->
