@@ -12,12 +12,16 @@ class Solution {
             //If left part of array is sorted
             if(nums[low]<=nums[mid])
             {
+                //If the left part is sorted then the min element will be low itself
                 min = Math.min(min,nums[low]);
+                //look for min in unsorted part
                 low=mid+1;
             }
+            //If the right part is sorted then the mid will be min automatically
             else
             {
                 min=Math.min(nums[mid], min);
+                //look for left for min element
                 high=mid-1;
             }
         }
