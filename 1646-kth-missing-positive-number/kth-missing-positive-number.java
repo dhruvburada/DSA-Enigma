@@ -1,23 +1,18 @@
 class Solution {
-     public  static int findKthPositive(int[] arr, int k) {
-        HashMap map = new HashMap<>();
-
+    public int findKthPositive(int[] arr, int k) {
         for(int i=0;i<arr.length;i++)
         {
-            map.put(arr[i],i);
-        }
-        int i=1;
-        int counter=0;
-        while(counter!=k)
-        {
-            if(map.containsKey(i))
+            if(arr[i]<=k)
             {
-                i++;
-                continue;
+                k++;
             }
-            counter=counter+1;
-            i+=1;
+            else
+            {
+               break;
+            }
         }
-        return i-1;
+
+        return k;
     }
+
 }
